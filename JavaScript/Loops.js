@@ -68,9 +68,53 @@
 
 
 
-let num = 2;
+// let i = 1;
 
-while(num == 10){
-   console.log(num);
-   num++;
-}
+// while(i <= 10){
+//    console.log(i);
+//    i++
+// }
+
+// while(i <= 20){
+//    if(i % 2 == 0){
+//       console.log(i)
+//    }
+//    i++;
+// }
+
+
+// let sum = 0;
+
+// while(i <= 50){
+//    sum += i;
+//    i++;
+// }
+
+// console.log(sum)
+
+// let j = 10;
+
+// while(j >= 1){
+//    console.log(j);
+//    j--;
+// }
+
+
+// let num = 4;
+// while(i<= 10){
+//    console.log(num," x ",i," = ",num * i);
+//    i++;
+// }
+
+let i = 1;
+// do{
+//    console.log(i);
+//    i++;
+// }while(i <= 5);
+
+do{
+   if(i % 2 !=  0){
+      console.log(i);
+   }
+   i++;
+}while(i <= 15)
