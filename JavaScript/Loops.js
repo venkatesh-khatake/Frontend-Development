@@ -106,15 +106,24 @@
 //    i++;
 // }
 
-let i = 1;
-// do{
-//    console.log(i);
-//    i++;
-// }while(i <= 5);
+// let i = 1;
+// // do{
+// //    console.log(i);
+// //    i++;
+// // }while(i <= 5);
 
-do{
-   if(i % 2 !=  0){
-      console.log(i);
-   }
-   i++;
-}while(i <= 15)
+// do{
+//    if(i % 2 !=  0){
+//       console.log(i);
+//    }
+//    i++;
+// }while(i <= 15)
+
+let num = 1234585;
+let count = 0;
+while(num != 0){
+   count++;
+   num = Math.floor(num / 10);
+}
+
+console.log(count);
