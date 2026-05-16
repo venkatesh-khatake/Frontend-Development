@@ -4,10 +4,17 @@
 
 // greet()
 
-let name = "Venkatesh";
+// let name = "Venkatesh";
 
-function greet(name){
-    console.log("Hello! ",name)
+// function greet(name){
+//     console.log("Hello! ",name)
+// }
+
+// greet(name)
+
+
+let sum = function(a,b){
+    return(a + b);
 }
 
-greet(name)
+console.log(sum(4,5))
