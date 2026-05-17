@@ -13,8 +13,19 @@
 // greet(name)
 
 
-let sum = function(a,b){
-    return(a + b);
-}
+// let sum = function(a,b){
+//     return(a + b);
+// }
 
-console.log(sum(4,5))
+// console.log(sum(4,5))
+
+
+let hello = (name)=>{
+    console.log("Hello my name is", name);
+}
+hello("Venkatesh");
+
+let sum = (a,b)=>{
+    return a + b;
+}
+console.log(sum(1,2))
