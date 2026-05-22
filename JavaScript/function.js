@@ -29,3 +29,10 @@ let sum = (a,b)=>{
     return a + b;
 }
 console.log(sum(1,2))
+
+
+let multiply = (a,b)=>{
+    return (a * b)
+}
+
+console.log(multiply(4,5))
