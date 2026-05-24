@@ -63,16 +63,28 @@
 
 
 
-let count = 0;
+// let count = 0;
 
-let findVowels = (str)=>{
-    str.toLowerCase();
-    for(let i = 0; i <= str.length-1; i++){
-       if(str[i] == 'a' || str[i] == 'e' || str[i] == 'i' ||  str[i] == 'o' || str[i] == 'u'){
-        count++;
-       }
-    }
-    console.log("Count of Vowels : ",count);
+// let findVowels = (str)=>{
+//     str.toLowerCase();
+//     for(let i = 0; i <= str.length-1; i++){
+//        if(str[i] == 'a' || str[i] == 'e' || str[i] == 'i' ||  str[i] == 'o' || str[i] == 'u'){
+//         count++;
+//        }
+//     }
+//     console.log("Count of Vowels : ",count);
+// }
+
+// findVowels("Khatake");
+
+// const add = (a,b)=>{
+//     a + b;
+// }
+// console.log(add(3,5))
+
+
+function sum(a = 0  , b = 0){
+    return a + b;
 }
 
-findVowels("Khatake");
+console.log(sum(5,4))
