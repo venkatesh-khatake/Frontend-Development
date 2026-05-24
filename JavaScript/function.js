@@ -20,19 +20,59 @@
 // console.log(sum(4,5))
 
 
-let hello = (name)=>{
-    console.log("Hello my name is", name);
+// let hello = (name)=>{
+//     console.log("Hello my name is", name);
+// }
+// hello("Venkatesh");
+
+// let sum = (a,b)=>{
+//     return a + b;
+// }
+// console.log(sum(1,2))
+
+
+// let multiply = (a,b)=>{
+//     return (a * b)
+// }
+
+// console.log(multiply(4,5))
+
+// function test() {
+//    console.log("Hello");
+//    return "World";
+// }
+
+// let result = test();
+
+// console.log(result);
+// console.log("Result : ",result)
+
+// let count = 0;
+// function findVowels(str){
+//     str.toLowerCase();
+//     for(let i = 0; i <=str.length-1; i++){
+//         if(str[i] == 'a' || str[i] == 'e' || str[i] == 'i' ||  str[i] == 'o' || str[i] == 'u'){
+//             count++;
+//         }
+//     }
+//     return count;
+// }
+
+
+// console.log(findVowels("Venkatesh"))
+
+
+
+let count = 0;
+
+let findVowels = (str)=>{
+    str.toLowerCase();
+    for(let i = 0; i <= str.length-1; i++){
+       if(str[i] == 'a' || str[i] == 'e' || str[i] == 'i' ||  str[i] == 'o' || str[i] == 'u'){
+        count++;
+       }
+    }
+    console.log("Count of Vowels : ",count);
 }
-hello("Venkatesh");
 
-let sum = (a,b)=>{
-    return a + b;
-}
-console.log(sum(1,2))
-
-
-let multiply = (a,b)=>{
-    return (a * b)
-}
-
-console.log(multiply(4,5))
+findVowels("Khatake");
