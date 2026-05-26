@@ -99,3 +99,19 @@ function sum(...val){
 }
 
 console.log(sum(1,2,3,4,5,6,7,8,9,10))
+
+
+function print(...val){
+    console.log(val);
+}
+print(1,2,3,4,6)
+
+
+let arr = [1,2,4,5]
+let arr2 = [7,6,5];
+let arr3 = [...arr,...arr2]
+console.log(arr3)
+console.log(...arr)
+
+
+
