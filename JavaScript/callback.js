@@ -18,7 +18,7 @@ function divide(a,b){
 function mod(a,b){
     return a % b;
 }
-console.log(calculator(3,4,multiply))
+console.log(calculator(3,4,mod))
 
 
 
