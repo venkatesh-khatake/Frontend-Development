@@ -15,6 +15,9 @@ function multiply(a,b){
 function divide(a,b){
     return a / b;
 }
+function mod(a,b){
+    return a % b;
+}
 console.log(calculator(3,4,multiply))
 
 
