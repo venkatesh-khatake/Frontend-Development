@@ -115,3 +115,9 @@ console.log(...arr)
 
 
 
+function abcd(val){
+    val();
+}
+abcd(function(){
+    console.log("Hey")
+})
