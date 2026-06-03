@@ -13,4 +13,14 @@ console.log(arr);
  let removed = arr.pop(); // removes last element from an array
  console.log(removed);
 
+ console.log(arr.length)
 
+console.log( arr.includes("Grapes"))
+
+console.log(arr.indexOf('Lichi'))
+
+let arr2 = arr.slice(0,3)
+console.log(arr2)
+
+console.log(arr)
+console.log(arr.slice(2))
