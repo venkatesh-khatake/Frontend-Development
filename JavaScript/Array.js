@@ -27,8 +27,12 @@ console.log(arr.slice(2))
 
 
 let numbers = [1,2,3,4,5,6,7]
-
+console.log("Reversed Array : ",numbers.reverse())
 numbers.forEach(function(num){
     console.log(num)
 })
 
+
+arr.forEach(function(fruit,index){
+    console.log(index, fruit)
+})
