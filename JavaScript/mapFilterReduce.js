@@ -48,26 +48,37 @@
 
 // some()
 
-let numbers = [1,2,3,4,5,6];
+// let numbers = [1,2,3,4,5,6];
 
-let result = numbers.some(function(num){
-    console.log(num)
-    return num * 10 === 50;
-})
-console.log(result)
+// let result = numbers.some(function(num){
+//     console.log(num)
+//     return num * 10 === 50;
+// })
+// console.log(result)
 
-// every()
-let result2 = numbers.every(num =>num % 2 === 0);
-console.log(result2)
+// // every()
+// let result2 = numbers.every(num =>num % 2 === 0);
+// console.log(result2)
 
 
-// find()
+// // find()
+// const users = [
+//   { id: 1, name: "John" },
+//   { id: 2, name: "Alice" }
+// ];
+
+// result3 = users.find(function(user){
+//     return user.id === 2;
+// })
+// console.log(result3)
+
+
 const users = [
   { id: 1, name: "John" },
-  { id: 2, name: "Alice" }
+  { id: 2, name: "Alice" },
+  { id: 3, name: "Bob" }
 ];
 
-result3 = users.find(function(user){
-    return user.id === 2;
-})
-console.log(result3)
+const result = users.findIndex(user => user.name === "Bob");
+
+console.log(result)
