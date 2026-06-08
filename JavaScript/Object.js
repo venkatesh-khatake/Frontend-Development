@@ -29,3 +29,17 @@ const {name,age,city,greet} = person;
 
 console.log(name)
 person.greet();
+
+
+const student = {
+    name : "Venkatesh",
+    age : 22,
+    // address : {
+    //     city : "Pune",
+    //     state : "Maharashtra",
+    //     country : "India",
+        
+    // }
+}
+
+console.log("Address : ",student.address.pincode)
