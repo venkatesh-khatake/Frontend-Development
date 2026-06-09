@@ -34,12 +34,18 @@ person.greet();
 const student = {
     name : "Venkatesh",
     age : 22,
-    // address : {
-    //     city : "Pune",
-    //     state : "Maharashtra",
-    //     country : "India",
+    address : {
+        city : "Pune",
+        state : "Maharashtra",
+        country : "India",
         
-    // }
+    }
 }
 
 console.log("Address : ",student.address.pincode)
+
+console.log(Object.keys(student))
+
+Object.keys(student).forEach(function(key){
+    console.log(key,student[key])
+})
