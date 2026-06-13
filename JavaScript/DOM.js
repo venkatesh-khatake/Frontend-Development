@@ -22,3 +22,5 @@ console.log(qe)
 qe.forEach(function(course,index){
     console.log(index , course.innerText)
 })
+
+
