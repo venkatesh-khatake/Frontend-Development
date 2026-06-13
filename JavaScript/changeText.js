@@ -12,7 +12,11 @@
     // all the content of an element including hidden text
 
     const css = document.querySelector('#css');
-   console.log("Textcontent : ",css.textContent)
+   console.log("textContent : ",css.textContent)
    console.log("innerText : ",css.innerText)
 
 console.log(document.body.textContent)
+
+
+div = document.querySelector('.div');
+div.innerHTML = "<h1>Hello Venkatesh this is DIV created by using innerHTML</h1>"
