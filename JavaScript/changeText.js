@@ -35,7 +35,16 @@ console.log("attribute value : ",link.getAttribute('href'))
 link.setAttribute('id','googleLink');
 console.log(link.getAttribute('id'))
 
+// link.removeAttribute('href')
+
 const box = document.querySelector('.box');
 
 box.classList.add('yellow')
 box.classList.toggle('tomato')
+
+const button = document.createElement('button');
+button.innerText = "Click Me";
+
+document.body.appendChild(button)
+
+// document.body.removeChild(button)
