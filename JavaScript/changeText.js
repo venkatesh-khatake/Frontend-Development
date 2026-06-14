@@ -20,3 +20,18 @@ console.log(document.body.textContent)
 
 div = document.querySelector('.div');
 div.innerHTML = "<h1>Hello Venkatesh this is DIV created by using innerHTML</h1>"
+
+// getAttribute() : 
+// getAttribute() is a DOM method used to get or read the value 
+// of an html attribute.
+
+let link = document.querySelector('a');
+console.log("attribute value : ",link.getAttribute('href'))
+
+// setAttribute() : 
+// setAttribute is a DOM method used to add a new attribute or update
+// existing attribute of an html element
+
+link.setAttribute('id','googleLink');
+console.log(link.getAttribute('id'))
+
