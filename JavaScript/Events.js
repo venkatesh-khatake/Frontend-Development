@@ -12,5 +12,14 @@ function changeTheme(){
 
 button.addEventListener('click',changeTheme)
 
+const input = document.getElementById('text');
 
+function showText(){
+    console.log(input.value)
+}
 
+input.addEventListener('input',showText)
+
+document.addEventListener('keydown',function(){
+    console.log("Key Pressed")
+})
