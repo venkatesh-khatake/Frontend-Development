@@ -20,6 +20,26 @@ function showText(){
 
 input.addEventListener('input',showText)
 
-document.addEventListener('keydown',function(){
-    console.log("Key Pressed")
+document.addEventListener('keydown',function(event){
+    // console.log("Key Pressed")
+    console.log(event.key)
+})
+
+
+// const text = document.querySelector('.text');
+// const box = document.querySelector(".box");
+
+// box.addEventListener('mouseover',function(){
+//     text.innerText = 'In';
+// })
+
+// box.addEventListener('mouseout',function(event){
+//     console.log(event)
+//         text.innerText = 'out';
+// })
+
+fruits = document.querySelector('#fruits');
+
+fruits.addEventListener('click',function(event){
+    console.log(event.target.innerText)
 })
