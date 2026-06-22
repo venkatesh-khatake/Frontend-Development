@@ -33,3 +33,9 @@ function updateCount() {
     }
 }
 
+
+const theme = document.getElementById('theme');
+
+theme.addEventListener('click',function(){
+  
+})
