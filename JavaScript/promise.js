@@ -1,8 +1,21 @@
-let promise = new Promise((resolve,reject)=>{
-    resolve("Success");
-    reject("Failed");
-})
+// let promise = new Promise((resolve,reject)=>{
+//     resolve("Success");
+//     reject("Failed");
+// })
 
-promise.then((result)=>{
-    console.log(result);
-});
+// promise.then((result)=>{
+//     console.log(result);
+// });
+
+
+
+// const promise = new Promise(function(resolve, reject){
+//     console.log("hello")
+// })
+
+console.log("Start");
+
+const promise = new Promise((resolve,reject)=>{
+console.log('inside Promise');
+})
+console.log("End")
