@@ -13,9 +13,16 @@
 //     console.log("hello")
 // })
 
-console.log("Start");
+// console.log("Start");
 
-const promise = new Promise((resolve,reject)=>{
-console.log('inside Promise');
-})
-console.log("End")
+// const promise = new Promise((resolve,reject)=>{
+// console.log('inside Promise');
+// })
+// console.log("End")
+
+
+function greet(){
+    console.log("Hello");
+    greet()
+}
+
