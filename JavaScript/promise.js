@@ -21,8 +21,20 @@
 // console.log("End")
 
 
-function greet(){
-    console.log("Hello");
-    greet()
-}
+// function greet(){
+//     console.log("Hello");
+//     greet()
+// }
 
+
+console.log("Start");
+
+setTimeout(()=>{
+    console.log("Timer");
+},0);
+
+Promise.resolve().then(()=>{
+    console.log("Promise");
+});
+
+console.log("End")
