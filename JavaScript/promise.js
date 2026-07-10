@@ -57,15 +57,36 @@
 
 
 
-const p1 = Promise.resolve("HTML");
-const p2 = Promise.resolve("CSS");
-const p3 = Promise.resolve("JS");
-const p4 = Promise.resolve("React")
+// const p1 = Promise.resolve("HTML");
+// const p2 = Promise.resolve("CSS");
+// const p3 = Promise.resolve("JS");
+// const p4 = Promise.resolve("React")
 
-Promise.all([p1,p2,p3,p4])
+// Promise.all([p1,p2,p3,p4])
+// .then((result)=>{
+//     console.log(result);
+// })
+// .catch((error)=>{
+//     console.log(error)
+// })
+
+const p1 = new Promise((resolve)=>{
+    setTimeout(()=>{
+      resolve("Promise 1")
+    },2000)
+})
+const p2 = new Promise((reject)=>{
+    setTimeout(()=>{
+       reject("Promise 2")
+    },1000)
+})
+
+Promise.allSettled([p1,p2])
 .then((result)=>{
-    console.log(result);
+    console.log(result)
 })
-.catch((error)=>{
-    console.log(error)
-})
+
+// Promise.race([p1,p2])
+// .then((result)=>{
+//     console.log(result)
+// })
