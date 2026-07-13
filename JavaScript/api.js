@@ -3,6 +3,6 @@
     return response.json()
 })
 .then((data)=>{
-    return data;
+    console.log(data.status )
 })
 
